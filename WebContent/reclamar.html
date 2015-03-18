@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title> Sua opinião </title>
-</head>
-<body>
-  <link href="stile.css" type="text/css" rel="stylesheet"/>
-    </head>       
- <center>
-      <fieldset id="local" style="width: 223px; height: 500px" align="left">
-      <legend>Localidade</legend>
-     
-     
-        <fieldset id="linha">
-            <legend>Linha</legend>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+        <link href="stile.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <fieldset id="local">
+            <legend>Localidade</legend>
             <div>
-               <p>Linha:<br> <select name="tlinha" value="flinha"> 
+                <br>
+                <p>Linha:<br> <select name="tlinha" value="flinha"> 
                         <option value="fselec" selected> Selecione...</option>	
                         <optgroup label="Região Norte">
                             <option value="fazul"> Azul </option>
@@ -45,7 +40,7 @@
                     </fieldset>
                     <br>
             </div>
-            <div>Codigo da Linha: <input type="text" name="fcodlin" id="tcodlin" placeholder="xx-xxxx" size="5"> </div><br>
+            <div>C�digo da Linha: <input type="text" name="fcodlin" id="tcodlin" placeholder="xx-xxxx" size="5"> </div><br>
 
             <div>Dia: <input type="date" name="tdata" id="fdata"> 
                 Hora: <input type="time" name="thora" id="ftime">
@@ -58,13 +53,13 @@
                             <option value="fruim"> Ruim </option>
                             <option value="frazoavel"> Razo�vel </option>
                             <option value="fbom"> Bom </option>
-                            <option value="fotimo"> Ótimo </option>
+                            <option value="fotimo"> �timo </option>
                         </select>
                         <br>
                     </div>
                     <br>
                     <div>Detalhes do ocorrido:<br>
-                        <textarea name="tdesc" id="fdesc" cols="40" rows="5" placeholder="Descreva o ocorrido">
+                        <textarea name="tdesc" id="fdesc" cols="40" rows="5">
 
                         </textarea><br></div><br>
                     <input type="submit" value="Finalizar"> <input type="reset" value="Limpar">
@@ -72,7 +67,5 @@
 
                 </div>
             </div>
-         </fieldset>   
-</center>
-</body>
+    </body>
 </html>
