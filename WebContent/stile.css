@@ -165,9 +165,18 @@ color:#ff0000;
 .form {
 	
 	text-align:left;
-	position:center;
+	position:absolute;	
 	width: 223px;
 	height:500px;
 	
 }
 
+
+.form1 {
+	
+	text-align:left;
+	position:absolute;	
+	width: 300px;
+	height:600px;
+	
+}
