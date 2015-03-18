@@ -61,8 +61,24 @@ color:#ff0000;
 
 #conteudo{
 	
-	width: 100%px;
+	width: 100%;
 	height: 400px;
+}
+ #about{
+     
+        width: 100%;
+        height: 400px;
+}
+
+table#aboutT{
+        border: 1px solid #000000;
+        border-spacing: 0px;
+        margin-left: 50px;
+        margin-right: auto;
+               
+}
+table#aboutT td{
+        border: 1px solid #000000;
 }
 
 #mapa{	
@@ -87,6 +103,14 @@ color:#ff0000;
 	width: 955px;
 	margin: 0 auto;
 	position: absolute;
+}
+#mapasite{
+        float: left;
+        width: 40%;
+}
+#redes{
+        float: left;
+        width: 40%;
 }
 
 #norte{
@@ -163,7 +187,7 @@ color:#ff0000;
 }
 
 .form {
-	position:left
+	position: left;
 	width: 223px;
 	height:500px;
 	background-color: #dddddd;
