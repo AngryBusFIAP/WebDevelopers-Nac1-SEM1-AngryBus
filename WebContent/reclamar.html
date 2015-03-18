@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title> Sua opinião </title>
+<meta charset="UFT-8">
+<title> Descreva sua opinião</title>
 </head>
 <body>
-  <link href="stile.css" type="text/css" rel="stylesheet"/>
+    <link href="stile.css" type="text/css" rel="stylesheet"/>
     </head>       
  <center>
-      <fieldset id="local" style="width: 223px; height: 500px" align="left">
+      <form class="form">
+      <fieldset id="local">
       <legend>Localidade</legend>
-     
-     
+          
         <fieldset id="linha">
             <legend>Linha</legend>
             <div>
@@ -54,7 +54,7 @@
                     <div> Trecho percorrido:  <input type="text" name="tsaida" id="fsaida" minlength="3" size="5" placeholder="inicio"> - <input type="text" name="ttermino" id="ftermino" minlength="3" size="5" placeholder="termino"></div><br>
                     <div>Nota: <select name="tnota" id="fnota">
                             <option value="fselec" selected> Selecione...</option>
-                            <option value="fpessimo"> P�ssimo </option>
+                            <option value="fpessimo"> Péssimo </option>
                             <option value="fruim"> Ruim </option>
                             <option value="frazoavel"> Razo�vel </option>
                             <option value="fbom"> Bom </option>
@@ -72,7 +72,8 @@
 
                 </div>
             </div>
-         </fieldset>   
+         </fieldset>
+         </form>   
 </center>
 </body>
 </html>

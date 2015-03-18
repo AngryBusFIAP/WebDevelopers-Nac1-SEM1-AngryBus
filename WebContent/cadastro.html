@@ -7,7 +7,7 @@
     </head>
     <body>
         <fieldset><legend>Cadastro</legend>
-            <form  action="cadastrar">
+            <form class="form1" action="cadastrar">
                 <fieldset id="usuario"><legend> Dados pessoais</legend>
 
                     <div>Nome completo:<br><input type="text" name="nome" id="nome" maxlength="40" minlength="2"></div>
@@ -15,7 +15,8 @@
                     <div><input type="date" name="data" id="data"></div>
                     <label for="fsexo"> Sexo:</label> <br>
                     <select name="tsexo" id="fsexo">
-                        <option value="H" selected> Homem </option>
+						<option value="Sel" selected> Selecione...</option>
+                        <option value="H"> Homem </option>
                         <option value="M"> Mulher</option>
                     </select><br>
                 </fieldset>
