@@ -55,14 +55,14 @@ color:#ff0000;
 
 #corpo{
 	width: 955px;
-	height: 900px;
+	height: 600px;
 	margin: 0 auto;
 }
 
 #conteudo{
 	
 	width: 100%px;
-	height: 400px;
+	height: 500px;
 }
 
 #mapa{	
@@ -78,7 +78,7 @@ color:#ff0000;
 	height: 472px;
 	position: relative;
 	left: 690px;
-	top: -460px;
+	top: -458px;
 	background-color: #242424;
 }
 
@@ -86,7 +86,7 @@ color:#ff0000;
 	border: 1px solid;
 	width: 955px;
 	margin: 0 auto;
-	position: absolute;
+	position: relative;
 }
 
 #norte{
@@ -122,13 +122,14 @@ color:#ff0000;
 #rodape{
 	position: relative;
 	width: 100%;
-	top: 532px;
+	top: -80px;
 }
 
-.h2 {
+.tragora {
 	background-color: #242424;
 	width: 100%;
 	height: 30px;
+	text-align: center;
 	position: absolute;
 }
 
@@ -156,9 +157,75 @@ color:#ff0000;
 	top: -20px;
 }
 
+.tit-ranking{
+	background-color: #408080;
+	position: relative;
+	color: #ca3535;
+	height: 50px;
+	width: 470px;
+	text-align: center;
+}
+
+.tit-ranking2{
+	background-color: #400040;
+	position: relative;
+	color: #ca3535;
+	top: -70px;
+	left: 485px;
+	height: 50px;
+	width: 470px;
+	text-align: center;
+}
+
 .tr {
 	position: relative;
 	color: #ffffff;
 	left: 70px;
 }
+
+.boxranking{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	top: -80px;
+}
+
+.boxempresa{
+	width: 470px;
+	height: 100%;
+}
+
+.boxreclamacao{
+	position: relative;
+	width: 470px;
+	height: 300px;
+	top: -3px;
+	left: 485px;
+}
+
+.cada{
+	font-size: 20px;
+	list-style: none;
+	position: relative;
+	padding: 0px 0px 0px 10px;
+
+}
+
+span{
+	position: relative;
+	float: right;
+	right: 120px;	
+}
+
+.emt{
+	position: relative;
+	float: right;
+	top: -10px;
+}
+
+p{
+	font-size: 16px;
+}
+
+
 
