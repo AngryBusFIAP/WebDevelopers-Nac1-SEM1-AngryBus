@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert title here</title>
+        <link href="stile.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <fieldset id="local">
+            <legend>Localidade</legend>
+            <div>
+                <br>
+                <p>Linha:<br> <select name="tlinha" value="flinha"> 
+                        <option value="fselec" selected> Selecione...</option>	
+                        <optgroup label="Região Norte">
+                            <option value="fazul"> Azul </option>
+                            <option value="famarela"> Amarela </option>
+                            <option value="fverde"> Verde </option>
+                            <option value="fvermelha"> Vermelha </option>
+                        </optgroup>
+                        <optgroup label="Região Sul">
+                            <option value="fazul"> Azul </option>
+                            <option value="famarela"> Amarela </option>
+                            <option value="fverde"> Verde </option>
+                            <option value="fvermelha"> Vermelha </option>
+                        </optgroup>
+                        <optgroup label="Região Leste">
+                            <option value="fazul"> Azul </option>
+                            <option value="famarela"> Amarela </option>
+                            <option value="fverde"> Verde </option>
+                            <option value="fvermelha"> Vermelha </option>
+                        </optgroup>
+                        <optgroup label="Região Oeste">
+                            <option value="fazul"> Azul </option>
+                            <option value="famarela"> Amarela </option>
+                            <option value="fverde"> Verde </option>
+                            <option value="fvermelha"> Vermelha </option>
+                        </optgroup>
+                    </select>
+                    </fieldset>
+                    <br>
+            </div>
+            <div>C�digo da Linha: <input type="text" name="fcodlin" id="tcodlin" placeholder="xx-xxxx" size="5"> </div><br>
+
+            <div>Dia: <input type="date" name="tdata" id="fdata"> 
+                Hora: <input type="time" name="thora" id="ftime">
+                <div>
+                    <br>
+                    <div> Trecho percorrido:  <input type="text" name="tsaida" id="fsaida" minlength="3" size="5" placeholder="inicio"> - <input type="text" name="ttermino" id="ftermino" minlength="3" size="5" placeholder="termino"></div><br>
+                    <div>Nota: <select name="tnota" id="fnota">
+                            <option value="fselec" selected> Selecione...</option>
+                            <option value="fpessimo"> P�ssimo </option>
+                            <option value="fruim"> Ruim </option>
+                            <option value="frazoavel"> Razo�vel </option>
+                            <option value="fbom"> Bom </option>
+                            <option value="fotimo"> �timo </option>
+                        </select>
+                        <br>
+                    </div>
+                    <br>
+                    <div>Detalhes do ocorrido:<br>
+                        <textarea name="tdesc" id="fdesc" cols="40" rows="5">
+
+                        </textarea><br></div><br>
+                    <input type="submit" value="Finalizar"> <input type="reset" value="Limpar">
+
+
+                </div>
+            </div>
+    </body>
+</html>
