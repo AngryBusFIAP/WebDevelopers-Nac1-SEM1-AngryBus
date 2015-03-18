@@ -187,9 +187,24 @@ table#aboutT td{
 }
 
 .form {
+<<<<<<< HEAD
 	position: left;
+=======
+	
+	text-align:left;
+	position:center;	
+>>>>>>> origin/master
 	width: 223px;
 	height:500px;
-	background-color: #dddddd;
+	
 }
 
+
+.form1 {
+	
+	text-align:left;
+	position:absolute;	
+	width: 300px;
+	height:600px;
+	
+}
