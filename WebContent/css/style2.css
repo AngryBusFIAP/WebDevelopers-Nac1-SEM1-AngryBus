@@ -1,43 +1,56 @@
+/* 
+* simple Signup Form
+* Created by Oussama Afellad
+* www.premiumfreebies.eu
+* 29/08/2011*/
 
-body{
-	padding: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.divbody{
         
-	font-family: agency fb, arial, helvetica;
-	font-size: 16px;
-        background: linear-gradient(-15deg, #FFFFFF, #b5b5b5);  
-           
+        width: 987px;
+        margin: 0 auto;
+        position: relative;
+        
+}
+header{
+        width: 987px;
+        height: 152px;
+        background-color: #9d9d9d;
+}
+.logo{
+    width: 270px;
+    height: 152px;
 }
 
-*{
-	padding: 0px;
-	border: 0px;
-}
-
-#logo{
-	position: relative;
-	width: 243px;
-	height: 104px;
-	left: 10px;
-}
-
-#cabecalho{
-	position: relative;
-	width: 955px;
-	height: 115px;
-	background-color: #c0c0c0;
-}
 
 #menu {
 	background-color: #e1e1e1;
 	list-style: none;
-	width: 955px;
+	width: 987px;
 	height: 32px;
 	position: relative;
-	top: -16px;
-	float: left;
 }
-
 #menu li{
 	position: relative;
 	float: left;
@@ -47,64 +60,43 @@ body{
 #menu li a{
 	color:#333; 
 	text-decoration:none; 
-	padding:5px 10px; 
+	padding:0px 0px 5px 10px; 
 	display:block;
 }
 
 #menu li a:hover{
 color:#ff0000;
 }
-
-
 #corpo{
 	width: 987px;
 	margin: 0 auto;
-        position: absolute;
 }
 
 #conteudo{
-	position: relative;
+	
 	width: 100%;
+	height: 400px;
 }
  #about{
      
         width: 100%;
+        height: 400px;
 }
 
 #mapa{	
 	width: 687px;
 	height: 472px;
 	position: relative;
-	top: 35px;
 	background-color: #f7f7f7;
 }
-
 #status-transito{
 	width: 263px;
-	height: 472px;
+	height: 467px;
 	position: relative;
 	left: 690px;
-	top: -460px;
+	top: -380px;
 	background-color: #242424;
 }
-
-footer{
-	border: 1px solid;
-	width: 955px;
-	margin: 0 auto;
-	position: relative;
-        background-image: url(img/rodape.png);
-        background-size: 100%;
-}
-#mapasite{
-        float: left;
-        width: 40%;
-}
-#redes{
-        float: left;
-        width: 40%;
-}
-
 #norte{
 	position: absolute;
 	top: 59px;
@@ -138,6 +130,8 @@ footer{
 #rodape{
 	position: relative;
 	width: 100%;
+	
+               
 }
 
 .h2 {
@@ -171,27 +165,24 @@ footer{
 	top: -20px;
 }
 
-.tr {
+footer{
+	border: 1px solid;
+	width: 987px;
+	margin: 0 auto;
 	position: relative;
-	color: #ffffff;
-	left: 70px;
+        background-image: url(img/rodape.png);
+        background-size: 100%;
+}
+#mapasite{
+        float: left;
+        width: 40%;
+}
+#redes{
+        float: left;
+        width: 40%;
 }
 
-.form {
-	position: left;
-	text-align:left;
-	position:center;	
-	width: 223px;
-	height:500px;
-	
-}
 
 
-.form1 {
-	
-	text-align:left;
-	position:absolute;	
-	width: 300px;
-	height:600px;
-	
-}
+
+

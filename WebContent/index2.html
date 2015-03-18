@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <title>AngryBus - O terminal da solução!</title>
-        <link href="stile.css" type="text/css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width">
+        <link href="css/style2.css" type="text/css" rel="stylesheet" href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500' rel='stylesheet' type='text/css'>
     </head>
     <body>
-
-        <div id="corpo">
-            <div id="cabecalho">
-                <img id="logo" src="img/logoAB.png" alt="Logo AngryBus - &copy ">
-            </div>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="reclamar.html">Reclame</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                    <li><a href="about.html">Quem Somos</a></li>
-                    <li><a href="faq.html">Como Funciona</a></li>
-                </ul>
-            </nav>
-            <div id="conteudo">
-                <div id="mapa">
-                    <div class="h2">
-                        <h2 class="titulos">Regiões com maior indice de reclamações:</h2>
-                    </div>
-                    <img id="norte" src="img/norte.png">
-                    <img id="leste" src="img/leste.png">
-                    <img id="centro" src="img/centro.png">
-                    <img id="oeste" src="img/oeste.png">
-                    <img id="sul" src="img/sul.png"
-                         onMouseOver="this.src = 'img/sulhover.png'"  
-                         onMouseOut="this.src = 'img/sul.png'"  
-                         onClick="location = 'http://www.google.com.br'"> 
+        <div class="divbody">
+            <header>
+                <div class="logo">
+                    <img class="logo" src="img/logoAB.png" alt="Logo AngryBus - &copy "/>
                 </div>
+            </header>
+            <nav>
+                <div id='nav'>
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reclamar.html">Reclame</a></li>
+                        <li><a href="cadastro.html">Cadastre-se</a></li>
+                        <li><a href="about.html">Quem Somos</a></li>
+                        <li><a href="faq.html">Como Funciona</a></li>
+                    </ul>                    
+                </div>
+            </nav>
+            <section>
+                <article>
+                    <div id="conteudo">
+                        <div id="mapa">
+                            <div class="h2">
+                                <h2 class="titulos">Regiões com maior indice de reclamações:</h2>
+                            </div>
+                            <img id="norte" src="img/norte.png">
+                            <img id="leste" src="img/leste.png">
+                            <img id="centro" src="img/centro.png">
+                            <img id="oeste" src="img/oeste.png">
+                            <img id="sul" src="img/sul.png"
+                                 onMouseOver="this.src = 'img/sulhover.png'"  
+                                 onMouseOut="this.src = 'img/sul.png'"  
+                                 onClick="location = 'http://www.google.com.br'"> 
+                        </div>
+                    </div>
 
-                <div id="status-transito">
+                </article>
+            </section>
+            <div id="status-transito">
+                <aside>
                     <div class="h2"> 
                         <h2 class="titulos">Transito Agora:</h2>
                     </div>
@@ -76,12 +86,9 @@
                             <h3 class="km">10 Km</h3>
                         </div>	
                     </div>
-                </div>
-                
+                </aside>
+
             </div>
-            
-
-
 
             <footer id="rodape">
                 <div id="mapasite">
@@ -99,8 +106,6 @@
                     <br>Pinerest
                 </div>
             </footer>
-
-        
         </div>
     </body>
 </html>
