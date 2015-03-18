@@ -163,9 +163,11 @@ color:#ff0000;
 }
 
 .form {
-	position:left
+	
+	text-align:left;
+	position:center;
 	width: 223px;
 	height:500px;
-	background-color: #dddddd;
+	
 }
 
