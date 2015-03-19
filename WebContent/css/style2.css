@@ -361,3 +361,9 @@ select{
 	position: relative;
 	left: 180px;
 }
+
+.imgperfil{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+}
