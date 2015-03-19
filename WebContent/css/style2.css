@@ -35,7 +35,7 @@ header{
         height: 152px;
         background-color: #9d9d9d;
 }
-#logo{
+.logo{
     width: 270px;
     height: 152px;
 }
@@ -258,5 +258,25 @@ p {
 	font-size: 16px;
 	padding-left: 15px;
 }
+
+.form {
+	position: left;
+	text-align:left;
+	position:center;	
+	width: 223px;
+	height:500px;
+	
+}
+
+
+.form1 {
+	
+	text-align:left;
+	position:absolute;	
+	width: 300px;
+	height:600px;
+	
+}
+
 
 
