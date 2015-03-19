@@ -183,7 +183,7 @@ footer{
 }
 .mapasite{
         float: left;
-        margin-left: 10;
+        margin-left: 10px;
         width: 45%;
         list-style: none;
         text-decoration: none;
