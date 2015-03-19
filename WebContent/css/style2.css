@@ -44,30 +44,30 @@ header{
 }
 
 
-#menu {
+.menu {
 	background-color: #e1e1e1;
 	list-style: none;
 	width: 987px;
 	height: 32px;
 	position: relative;
 }
-#menu li{
+.menu li{
 	position: relative;
 	float: left;
 	padding-left: 90px;	
 }
 
-#menu li a{
+.menu li a{
 	color:#333; 
 	text-decoration:none; 
 	padding:10px 0px 5px 10px; 
 	display:block;
 }
 
-#menu li a:hover{
+.menu li a:hover{
 color:#ff0000;
 }
-#corpo{
+.corpo{
 	width: 987px;
 	margin: 0 auto;
 }
