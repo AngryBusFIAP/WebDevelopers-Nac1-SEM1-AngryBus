@@ -21,7 +21,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: arial, inherit;
 	vertical-align: baseline;
 }
 
@@ -187,7 +187,70 @@ footer{
         width: 40%;
 }
 
+.tit-ranking{
+	background-color: #408080;
+	position: relative;
+	color: #ca3535;
+	height: 35px;
+	width: 470px;
+	font-size: 24px;
+	text-align: center;
+}
 
+.tit-ranking2{
+	background-color: #400040;
+	position: relative;
+	color: #ca3535;
+	height: 35px;
+	width: 470px;
+	text-align: center;
+}
 
+.boxranking{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	border: 1px solid;
+}
+
+.boxempresa{
+	width: 470px;
+	height: 100%;
+	border: 1px solid;
+}
+
+.boxreclamacao{
+	position: relative;
+	width: 470px;
+	height: 300px;
+	border: 1px solid;
+	left: 515px;
+	top: -264px;
+}
+
+.cada{
+	font-size: 20px;
+	list-style: none;
+	position: relative;
+	padding: 20px 0px 0px 20px;
+
+}
+
+span{
+	position: relative;
+	float: right;
+	right: 120px;	
+}
+
+.emt{
+	position: relative;
+	float: right;
+	top: -10px;
+}
+
+p {
+	font-size: 16px;
+	padding-left: 15px;
+}
 
 
