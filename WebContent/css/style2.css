@@ -242,7 +242,7 @@ footer{
 
 }
 
-span{
+.nr{
 	position: relative;
 	float: right;
 	right: 120px;	
@@ -262,20 +262,21 @@ p {
 .form {
 	text-align: left;
 	position: relative;	
-	width: 300px;
+	width: 600px;
 	height: 400px;
-	left: 400px;
+	left: 200px;
 	border: 1px solid;
 	
 }
 
 
 .form1 {
-	
 	text-align:left;
-	position:absolute;	
-	width: 300px;
+	position: relative;	
+	width: 500px;
 	height:600px;
+	left: 250px;
+	border: 1px solid;
 	
 }
 
@@ -286,5 +287,32 @@ p {
 	
 }
 
+
+input{     
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border:1px solid #000000;
+    height: 20px;
+}
+
+select{     
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border:1px solid #000000;
+}
+
+.nome{
+	width: 300px;
+}
 
 
