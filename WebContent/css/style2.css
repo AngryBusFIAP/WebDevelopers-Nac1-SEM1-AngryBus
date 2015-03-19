@@ -198,7 +198,7 @@ footer{
 	position: relative;
 	color: #ca3535;
 	height: 35px;
-	width: 470px;
+	width: 100%;
 	font-size: 24px;
 	text-align: center;
 }
@@ -208,7 +208,7 @@ footer{
 	position: relative;
 	color: #ca3535;
 	height: 35px;
-	width: 470px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -263,9 +263,9 @@ p {
 	text-align: left;
 	position: relative;	
 	width: 600px;
-	height: 400px;
+	height: 600px;
 	left: 200px;
-	border: 1px solid;
+
 	
 }
 
@@ -273,16 +273,14 @@ p {
 .form1 {
 	text-align:left;
 	position: relative;	
-	width: 500px;
-	height:600px;
-	left: 250px;
-	border: 1px solid;
+	width: 540px;
+	height: 900px;
+	left: 230px;
 	
 }
 
 .containerform{
 	position: relative;
-	border: 1px solid;
 	width: 100%;
 	
 }
@@ -311,8 +309,55 @@ select{
     border:1px solid #000000;
 }
 
-.nome{
-	width: 300px;
+.tam{
+	width: 242px;
 }
 
+.inpesq{
+	position: relative;
+	
+}
 
+.inpdir{
+	position: absolute;
+	left: 300px;
+	top: 74px;	
+		
+}
+
+.ddconta{
+	position: relative;
+	width: 270px;
+}
+
+.ddconta2{
+	position: relative;
+	width: 268px;
+	top: -60px;
+	left: 271px;
+}
+
+.container-conta{
+	width: 100%;	
+}
+
+.tit-conta{
+	background-color: #408080;
+	position: relative;
+	color: #ca3535;
+	height: 35px;
+	width: 100%;
+	font-size: 24px;
+	text-align: center;
+}
+
+.boxtermos{
+	position: relative;
+	width : 540px;
+	height: 160px;	
+}
+
+.aligncenter{
+	position: relative;
+	left: 180px;
+}
