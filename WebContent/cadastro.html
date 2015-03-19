@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Insert title here</title>
-        <link href="stile.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-        <fieldset><legend>Cadastro</legend>
-            <form class="form1" action="cadastrar">
-                <fieldset id="usuario"><legend> Dados pessoais</legend>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="css/style2.css" type="text/css" rel="stylesheet"
+	href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500'
+	rel='stylesheet' type='text/css'>
+</head>
+<body>
 
-                    <div>Nome completo:<br><input type="text" name="nome" id="nome" maxlength="40" minlength="2"></div>
-                    <div>Data de nascimento:</div>
-                    <div><input type="date" name="data" id="data"></div>
-                    <label for="fsexo"> Sexo:</label> <br>
-                    <select name="tsexo" id="fsexo">
-						<option value="Sel" selected> Selecione...</option>
-                        <option value="H"> Homem </option>
-                        <option value="M"> Mulher</option>
-                    </select><br>
-                </fieldset>
-                <fieldset><legend>Contatos</legend>
-                    <div>E-mail: <br><input type="email" name="email" id="email" placeholder="exemplo123@321.com.br" minlength="2"></div><br>
-                    <div>Confirme o e-mail: <br><input type="email" name="email" id="email" placeholder="exemplo123@321.com.br" minlength="2"></div><br>
-                    <div>Telefone: <br><input type="numeric" name="ddd" id="ddd" placeholder="(xx)" minlength="2" size="01" >-<input type="numeric" name="tel" id="tel" placeholder="****-****" minlength="2"></div><br>
-                    <div>Localidade <br><input type="text" name="cid" id="cid" placeholder="Cidade"> <input type="text" name="estado" id="estado" placeholder="UF" size="1"></div><br>
-                    <div>Endereço:<input type="caractere" name="end" id="end" placeholder="Av,Rua, Viela, Logadouro" minlength="2"> Complemento:<input type="text" name="casa" id="casa" placeholder="Bloco, Apartamento, casa 1, casa2" size="20"></div><br>
-                    <div>CEP:<input type="numeric" name="cep" id="cep" placeholder="*****" minlength="2" size="2">-<input type="numeric" name="cep2" id="cep2"  minlength="2" size="1"></div><br>
-                </fieldset><br>
-
-                <input type="submit" value="Enviar">  <input type="reset" value="Limpar formulario">
-            </form> 
-
-    </body>
+	<div class="divbody">
+		<header>
+			<div>
+				<img class="logo" src="img/logoAB.png" alt="Logo AngryBus - &copy " />
+			</div>
+		</header>
+		<nav>
+			<div>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="reclamar.html">Reclame</a></li>
+					<li><a href="cadastro.html">Cadastre-se</a></li>
+					<li><a href="about.html">Quem Somos</a></li>
+					<li><a href="faq.html">Como Funciona</a></li>
+				</ul>
+			</div>
+		</nav>
+			
+		<div>
+		<fieldset style="border: 1px solid";>
+			<form class="form1" action="cadastrar">
+			<legend>Cadastro</legend>
+	
+				<fieldset style="border: 1px solid";>
+					<legend> Dados pessoais</legend>
+					<br>
+					
+						<label><span>Nome completo:</span><br>
+						<input type="text" name="nome" class="nome"
+							maxlength="40" minlength="2"></label>
+					
+					Data de nascimento:
+					<div>
+						<input type="date" name="data" id="data">
+					</div>
+					<label for="fsexo"> Sexo:</label> <br> <select name="tsexo"
+						id="fsexo">
+						<option value="Sel" selected>Selecione...</option>
+						<option value="H">Homem</option>
+						<option value="M">Mulher</option>
+					</select><br>
+				</fieldset>
+				<fieldset style="border: 1px solid";>
+					<legend>Contatos</legend>
+					<div>
+						E-mail: <br> <input type="email" name="email" id="email"
+							placeholder="exemplo123@321.com.br" minlength="2">
+					</div>
+					<br>
+					<div>
+						Confirme o e-mail: <br> <input type="email" name="email"
+							id="email" placeholder="exemplo123@321.com.br" minlength="2">
+					</div>
+					<br>
+					<div>
+						Telefone: <br> <input type="numeric" name="ddd" id="ddd"
+							placeholder="(xx)" minlength="2" size="01">-<input
+							type="numeric" name="tel" id="tel" placeholder="****-****"
+							minlength="2">
+					</div>
+					<br>
+					<div>
+						Localidade <br> <input type="text" name="cid" id="cid"
+							placeholder="Cidade"> <input type="text" name="estado"
+							id="estado" placeholder="UF" size="1">
+					</div>
+					<br>
+					<div>
+						Endereço:<input type="text" name="end" id="end"
+							placeholder="Av,Rua, Viela, Logadouro" minlength="2">
+						Complemento:<input type="text" name="casa" id="casa"
+							placeholder="Bloco, Apartamento, casa 1, casa2" size="20">
+					</div>
+					<br>
+					<div>
+						CEP:<input type="numeric" name="cep" id="cep" placeholder="*****"
+							minlength="2" size="2">-<input type="numeric" name="cep2"
+							id="cep2" minlength="2" size="1">
+					</div>
+					<br>
+				</fieldset>
+				<br> <input type="submit" value="Enviar"> <input
+					type="reset" value="Limpar formulario">
+			</form>
+		
+		</fieldset>
+		</div>
+	</div>
+</body>
 </html>
