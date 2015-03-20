@@ -28,7 +28,7 @@
 		</nav>
 			
 		<div class="containerform">
-		<form class="form1" action="cadastrar">
+		<form class="form1" action="cadastrar" name="formulario">
 			<div class="inpesq">
 			<br>
 						<h1 class="tit-conta">Dados Pessoais</h1>
@@ -48,7 +48,7 @@
 												<label>
 													<span>Data de nascimento:</span>
 													<br>
-														<input type="date" name="data">
+														<input type="date" min="1915-12-31" max="2015-12-31" name="data">
 															</label>
 															<br><br>
 																<label>
@@ -343,7 +343,7 @@
             </label>
             <br><br><br>
            			<div class="aligncenter">                     
-           			<a href="reclamar.html"><input type="submit" value="Enviar" name="enviar1" ></a> <input
+           			<input type="SUBMIT" value="Enviar"></a> <input 
 					type="reset" value="Limpar formulario">
 						</div>
 							</div>
