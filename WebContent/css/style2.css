@@ -178,8 +178,9 @@ footer{
 	width: 987px;
 	margin: 0 auto;
 	position: relative;
-        background-image: url(img/rodape.png);
+        background-image: url(../img/rodape.png);
         background-size: 100%;
+        border: 1px;
 }
 .mapasite{
         float: left;
@@ -187,6 +188,7 @@ footer{
         width: 45%;
         list-style: none;
         text-decoration: none;
+        border: 1px;
 }
 .mapasite li a{
     	color:#333; 
@@ -366,4 +368,38 @@ select{
     width: 20%;
     height: 20%;
     position: absolute;
+}
+#jardel{
+        position: relative;
+        alignment-adjust: initial;
+}
+
+#lucas{
+    
+}
+
+#vinicius{
+    
+}
+#amanda{
+    
+}
+
+#about{
+    
+}
+
+.nome{
+    
+}
+
+#copy{
+    font-size: xx-small;
+    
+}
+
+#copyr{ /*propriedades do copyright*/
+    position: relative;
+    padding-bottom: 50px;
+    
 }
