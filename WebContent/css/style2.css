@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 body{
     font-family: Roboto, sans-serif;
-    background: linear-gradient(-15deg, #FFFFFF, #b5b5b5);
+    background-color: #ffffff;
 }
 
 .divbody{
@@ -33,7 +33,7 @@ body{
 header{
         width: 987px;
         height: 152px;
-        background-color: #9d9d9d;
+        background-color: #7180bb;
 }
 .logo{
     width: 270px;
@@ -42,7 +42,7 @@ header{
 
 
 .menu {
-	background-color: #e1e1e1;
+	background-color: #d6daeb;
 	list-style: none;
 	width: 987px;
 	height: 32px;
@@ -89,7 +89,7 @@ color:#ff0000;
 	height: 467px;
 	position: absolute;
 	left: 690px;
-	top: 184px;
+	top: 202px;
 	background-color: #242424;
 }
 #norte{
@@ -130,12 +130,12 @@ color:#ff0000;
 }
 
 .h2 {
-	background-color: #242424;
+	background-color: #40414a;
 	width: 100%;
 	height: 30px;
 	position: relative;
-        text-align: right;
-        vertical-align: central;
+    text-align: right;
+    vertical-align: central;
         
 }
 .km{
@@ -151,9 +151,12 @@ color:#ff0000;
 	position: relative;
 	width: 215px;
 	height: 72px;
-	background-color: #808080;
+	background-color: #8080ff;
 	border: 1px solid;
-	
+}
+
+.regioes div:hover{
+	color: #004080;
 }
 
 .regioes2{
@@ -166,6 +169,11 @@ color:#ff0000;
 	background-color: #c0c0c0;
 }
 
+.regioes2 div:hover{
+	color: #eee;
+}
+
+
 .titulos{
 	position: relative;
 	color: #ffffff;
@@ -174,13 +182,17 @@ color:#ff0000;
 }
 
 footer{
-	border: 1px solid;
 	width: 987px;
 	margin: 0 auto;
 	position: relative;
-        background-image: url(img/rodape.png);
-        background-size: 100%;
 }
+
+.background{
+	width: 100%;
+	height: 100px;
+	background-color: #d6daeb;
+}
+
 .mapasite{
         float: left;
         margin-left: 10px;
@@ -194,21 +206,22 @@ footer{
 }
 
 .tit-ranking{
-	background-color: #408080;
+	background-color: #40414a;
 	position: relative;
 	color: #ca3535;
 	height: 35px;
 	width: 100%;
-	font-size: 24px;
+	font-size: 22px;
 	text-align: center;
 }
 
 .tit-ranking2{
-	background-color: #400040;
+	background-color: #40414a;
 	position: relative;
 	color: #ca3535;
 	height: 35px;
 	width: 100%;
+	font-size: 22px;
 	text-align: center;
 }
 
@@ -216,22 +229,21 @@ footer{
 	position: relative;
 	width: 100%;
 	height: 300px;
-	border: 1px solid;
 }
 
 .boxempresa{
+	border: 1px solid;
 	width: 470px;
 	height: 100%;
-	border: 1px solid;
 }
 
 .boxreclamacao{
+	border: 1px solid;
 	position: relative;
 	width: 470px;
 	height: 300px;
-	border: 1px solid;
 	left: 515px;
-	top: -264px;
+	top: -262px;
 }
 
 .cada{
@@ -264,7 +276,7 @@ p {
 	position: relative;	
 	width: 600px;
 	height: 600px;
-	left: 200px;
+	left: 350px;
 
 	
 }
@@ -360,4 +372,23 @@ select{
 .aligncenter{
 	position: relative;
 	left: 180px;
+}
+
+#boxlogin{
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	left: 685px;
+	top: 40px;
+
+}
+
+.formlabel{
+	position: absolute;
+	left: 70px;
+}
+
+.btnentrar{
+	position: relative;
+	left: 120px;
 }
