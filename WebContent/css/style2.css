@@ -34,6 +34,10 @@ header{
         width: 987px;
         height: 152px;
         background-color: #4e66c7;
+        border-radius: 10px 10px 0px 0px;
+    	-moz-border-radius: 2px;
+		box-shadow: 1px 1px 2px #333333;    
+  	  	-moz-box-shadow: 1px 1px 2px #333333;
 }
 .logo{
     width: 270px;
@@ -47,22 +51,27 @@ header{
 	width: 987px;
 	height: 32px;
 	position: relative;
+	border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 20px;
+	 box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 }
 .menu li{
 	position: relative;
 	float: left;
-	padding-left: 90px;	
+	padding-left: 80px;	
 }
 
 .menu li a{
 	color:#333; 
-	text-decoration:none; 
-	padding:10px 0px 5px 10px; 
-	display:block;
+	text-decoration: none; 
+	padding: 10px 10px 4px 10px; 
+	display: block;
 }
 
 .menu li a:hover{
-color:#ff0000;
+	color:#0000ff;
+	background-color: #2b2428;
 }
 .corpo{
 	width: 987px;
@@ -90,7 +99,6 @@ color:#ff0000;
 	position: absolute;
 	left: 690px;
 	top: 202px;
-	background-color: #242424;
 }
 #norte{
 	position: absolute;
@@ -129,15 +137,24 @@ color:#ff0000;
                
 }
 
-.h2 {
-	background-color: #242424;
-	width: 100%;
-	height: 30px;
-	position: relative;
-        text-align: right;
-        vertical-align: central;
-        
+
+h2{
+	border-radius:3px;
+    -moz-border-radius: 20px;
+     -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border:1px solid #000000;
+    height: 20px;
 }
+
+h1{
+	border-radius: 4px;
+    -moz-border-radius: 20px;
+	}
+
 .km{
     text-align: center;
 }
@@ -151,10 +168,21 @@ color:#ff0000;
 	position: relative;
 	width: 215px;
 	height: 72px;
-	background-color: #808080;
 	border: 1px solid;
-	
 }
+
+#status-transito div{
+	background-color: #c5d1cd;
+	-moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+#status-transito div:hover{
+	background-color: #4b4b4b;
+	-moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
 
 .regioes2{
 	position: relative;
@@ -163,14 +191,15 @@ color:#ff0000;
 	top: -24px;
 	border: 1px solid;
 	height: 72px;
-	background-color: #c0c0c0;
 }
+
 
 .titulos{
 	position: relative;
 	color: #ffffff;
 	text-align: center;
 	padding: 5px 0px 0px 0px;
+	background-color: #1e1e1e;
 }
 
 footer{
@@ -188,7 +217,6 @@ footer{
         width: 45%;
         list-style: none;
         text-decoration: none;
-        border: 1px;
 }
 .mapasite li a{
     	color:#333; 
@@ -196,23 +224,15 @@ footer{
 }
 
 .tit-ranking{
-	background-color: #408080;
+	background-color: #1e1e1e;
 	position: relative;
-	color: #ca3535;
-	height: 35px;
+	color: #ffffff;
+	height: 24px;
 	width: 100%;
-	font-size: 24px;
+	font-size: 16px;
 	text-align: center;
 }
 
-.tit-ranking2{
-	background-color: #400040;
-	position: relative;
-	color: #ca3535;
-	height: 35px;
-	width: 100%;
-	text-align: center;
-}
 
 .boxranking{
 	position: relative;
@@ -223,16 +243,14 @@ footer{
 .boxempresa{
 	width: 470px;
 	height: 100%;
-	border: 1px solid;
 }
 
 .boxreclamacao{
 	position: relative;
 	width: 470px;
 	height: 300px;
-	border: 1px solid;
 	left: 515px;
-	top: -264px;
+	top: -252px;
 }
 
 .cada{
@@ -289,15 +307,14 @@ p {
 
 
 input{     
-    border-radius:4px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
+    border-radius: 5px;
+    -moz-border-radius: 4px;
+   -webkit-border-radius:4px;
     box-shadow: 1px 1px 2px #333333;    
     -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
     background: #ffffff; 
     border:1px solid #000000;
-    height: 20px;
 }
 
 select{     
