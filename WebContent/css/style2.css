@@ -133,6 +133,7 @@ header{
 #rodape{
 	position: relative;
 	width: 100%;
+	padding-left: 40px;
 	
                
 }
@@ -207,16 +208,16 @@ footer{
 	width: 987px;
 	margin: 0 auto;
 	position: relative;
-        background-image: url(../img/rodape.png);
-        background-size: 100%;
-        border: 1px;
 }
 .mapasite{
+		position: relative;
         float: left;
         margin-left: 10px;
-        width: 45%;
+        width: 300px;
+        left: 40px;
         list-style: none;
         text-decoration: none;
+        border: 1px solid;
 }
 .mapasite li a{
     	color:#333; 
@@ -444,3 +445,10 @@ select{
 .btnentrar{
 	position: relative;
 	left: 120px;
+}
+	
+.icones{
+	width: 30px;
+	height: 30px;
+
+}
