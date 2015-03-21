@@ -31,7 +31,6 @@ body{
         width: 987px;
         margin: 0 auto;
         position: relative;
-		
 }
 header{
         width: 987px;
@@ -54,9 +53,9 @@ header{
 	width: 987px;
 	height: 32px;
 	position: relative;
-	border-radius: 0px 0px 10px 10px;
-    -moz-border-radius: 20px;
-	 box-shadow: 1px 1px 2px #333333;    
+            border-radius: 0px 0px 10px 10px;
+        -moz-border-radius: 20px;
+             box-shadow: 1px 1px 2px #333333;    
     -moz-box-shadow: 1px 1px 2px #333333;
 }
 .menu li{
@@ -131,6 +130,7 @@ header{
 #rodape{
 	position: relative;
 	width: 100%;
+        padding-top: 1px;
 	
                
 }
@@ -202,11 +202,10 @@ h1{
 footer{
 	border: 1px solid;
 	width: 987px;
-	margin: 0 auto;
+	height: 100px;
+        margin: 0 auto;
 	position: relative;
-        background-image: url(../img/rodape.png);
-        background-size: 100%;
-        border: 1px;
+        clear:both;
 }
 .mapasite{
         float: left;
@@ -424,6 +423,7 @@ select{
 #about{
 	margin: auto;
 	width: 600px;
+        padding-top: 5px;
 }
 
 #copy{
@@ -474,4 +474,14 @@ h1#QS{
 	width: 30px;
 	height: 30px;
 
+}
+
+.perg{
+    /* formatação das perguntas*/
+    
+}
+
+.resp{
+    /*formatação das respostas*/
+    
 }
