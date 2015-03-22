@@ -21,7 +21,7 @@ time, mark, audio, video {
     border-left-style: none;
 }
 body{
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Signika, sans-serif, Courgette, cursive;
     background-color: #ffffff;
 }
 
@@ -51,6 +51,7 @@ header{
     font-size: x-large;
     z-index:auto;
     font-weight: 600;
+    font-family: Courgette, cursive;
 }
 
 .menu {
@@ -111,6 +112,21 @@ header{
     left: 690px;
     top: 196px;
 }
+#tbtran{
+    position: relative;
+    width: 297px;
+    height: 432px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+#tbtran tr td{
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
 #norte{
     position: absolute;
     top: 59px;
@@ -197,15 +213,16 @@ h1{
 
 }
 
-#status-transito div{
+#tbtran{
     background-color: #d6daeb;
     -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
 
 }
 
-#status-transito div:hover{
-    background-color: #4b4b4b;
+#tbtran tr:hover{
+    color:#0000ff;
+    background-color: #2b2428;
     -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
 }
@@ -261,7 +278,7 @@ footer{
 .boxempresa{
     width: 470px;
     height: 100%;
-      background-color: #d6daeb;
+    background-color: #d6daeb;
     border-radius: 0px 0px 10px 10px;
     -moz-border-radius: 20px;
     box-shadow: 1px 1px 2px #333333;    
@@ -273,8 +290,8 @@ footer{
     width: 470px;
     height: 300px;
     left: 515px;
-    top: -260px;
-      background-color: #d6daeb;
+    top: -269px;
+    background-color: #d6daeb;
     border-radius: 0px 0px 10px 10px;
     -moz-border-radius: 20px;
     box-shadow: 1px 1px 2px #333333;    
@@ -476,24 +493,25 @@ select{
 }
 
 #boxlogin {
-  position: absolute;
-  width: 300px;
-  height: 80px;
-  left: 670px;
-  top: 40px;
-  padding-top: 25px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 670px;
+    top: 40px;
+    padding-top: 25px;
 }
 
 .formlabel{
-	position: absolute;
-	left: 70px;
+    position: absolute;
+    left: 70px;
+    
 }
 
 .btnentrar{
-	position: absoulet;
-        left: 150px;
-        top: 52px;
-	
+    position: absolute;
+    left: 130px;
+    top: 86px;
+
 }
 
 h1#QS{
@@ -507,7 +525,15 @@ h1#QS{
 .icones{
     width: 30px;
     height: 30px;
-
+    padding-top:5px;
+}
+#icones{
+    background: #d6daeb;
+    width: 150px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 }
 
 .perg{
