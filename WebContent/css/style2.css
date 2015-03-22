@@ -22,7 +22,7 @@ time, mark, audio, video {
 }
 body{
     font-family: Roboto, Signika, sans-serif, Courgette, cursive;
-    background-color: #ffffff;
+    background-color: #ecffff;
 }
 
 .divbody{
@@ -81,7 +81,7 @@ header{
 .menu li a:hover{
     color:#0000ff;
     background-color: #2b2428;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 	0px 0px 0px;
     -moz-border-radius: 2px;
     box-shadow: 1px 1px 2px #333333;    
     -moz-box-shadow: 1px 1px 2px #333333;
