@@ -434,7 +434,7 @@ select{
 }
 
 #lucas{
-    width: 265px;
+    width: 260px;
     height: 340px;
     margin-right: 5px;
     float: right;
@@ -442,16 +442,14 @@ select{
 }
 
 #vinicius{
-    width: 290px;
-    height: 340px;
+    width: 260px;
     margin-left: 5px;
     margin-top: 5px;
     float: left;
 
 }
 #amanda{
-    width: 265px;
-    height: 340px;
+    width: 260px;
     float: right;
     margin-top: 5px;
     margin-right: 5px;
@@ -463,7 +461,7 @@ select{
 #about{
     margin: auto;
     width: 600px;
-    height: 700px;
+	height: 650px;
     padding-top: 5px;
 }
 
