@@ -21,7 +21,7 @@ time, mark, audio, video {
     border-left-style: none;
 }
 body{
-    font-family: Roboto, Signika, sans-serif, Courgette, cursive;
+    font-family: Signika, sans-serif, Courgette, cursive;
     background-color: #ecffff;
 }
 
@@ -249,6 +249,7 @@ footer{
     margin: 0 auto;
     position: relative;
     clear:both;
+    z-index: 1;
 }
 .mapasite{
     float: left;
@@ -477,14 +478,18 @@ a{
 }
 
 #copy{
-    font-size: xx-small;
-
+    font-size: x-small;
+    text-align: right;
 }
 
 #copyr{ /*propriedades do copyright*/
     position: relative;
-    padding-bottom: 50px;
-
+    padding-bottom: 5px;
+    background: #4e66c7;
+    -moz-border-radius: 2px;
+    box-shadow: 2px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    z-index: 2;
 }
 
 #textarea {
@@ -535,9 +540,10 @@ h1#QS{
     height: 30px;
     padding-top:5px;
 }
+
 #icones{
     background: #d6daeb;
-    width: 150px;
+    width: 183px;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 2px;
     box-shadow: 1px 1px 2px #333333;    
@@ -545,12 +551,12 @@ h1#QS{
 }
 
 .perg{
-    /* formatação das perguntas*/
+    /* formataï¿½ï¿½o das perguntas*/
 
 }
 
 .resp{
-    /*formatação das respostas*/
+    /*formataï¿½ï¿½o das respostas*/
 
 }
 .menurodape {
@@ -569,6 +575,7 @@ h1#QS{
     text-decoration: none; 
     padding: 10px 10px 4px 10px; 
     display: block;
+    width: 150px;
 }
 
 .menurodape li a:hover{
