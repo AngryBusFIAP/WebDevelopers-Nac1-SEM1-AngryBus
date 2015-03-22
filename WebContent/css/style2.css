@@ -328,12 +328,9 @@ p {
 .form {
     text-align: left;
     position: relative;	
-    width: 600px;
+    width: 400px;
     height: 600px;
-    left: 350px;
-    top: 50px;	 
-
-
+    left: 300px;	 
 }
 
 
@@ -405,15 +402,6 @@ select{
 
 .container-conta{
     width: 100%;	
-}
-.tit-conta{
-    background-color: #2b2428;
-    position: relative;
-    color: #ffffff;
-    height: 35px;
-    width: 100%;
-    font-size: 24px;
-    text-align: center;
 }
 
 .boxtermos{
@@ -530,11 +518,18 @@ a{
 h1#QS{
     margin:auto;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     background-color: #2b2428;
     color: #ffffff;
+    background-color: #1e1e1e;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 
 }	
+
+
 .icones{
     width: 30px;
     height: 30px;
