@@ -11,15 +11,14 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	font-family: arial, inherit;
-	vertical-align: baseline;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -27,285 +26,318 @@ body{
 }
 
 .divbody{
-        
-        width: 987px;
-        margin: 0 auto;
-        position: relative;
+
+    width: 987px;
+    margin: 0 auto;
+    position: relative;
 }
 header{
-        width: 987px;
-        height: 152px;
-        background-color: #4e66c7;
-        border-radius: 10px 10px 0px 0px;
-    	-moz-border-radius: 2px;
-		box-shadow: 1px 1px 2px #333333;    
-  	  	-moz-box-shadow: 1px 1px 2px #333333;
+    width: 987px;
+    height: 152px;
+    background-color: #4e66c7;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 }
 .logo{
     width: 270px;
     height: 152px;
 }
-
+#slogan{
+    position: absolute;
+    top: 10px;
+    left: 315px;
+    font-size: x-large;
+    z-index:auto;
+    font-weight: 600;
+}
 
 .menu {
-	background-color: #d6daeb;
-	list-style: none;
-	width: 987px;
-	height: 32px;
-	position: relative;
-            border-radius: 0px 0px 10px 10px;
-        -moz-border-radius: 20px;
-             box-shadow: 1px 1px 2px #333333;    
+    list-style: none;
+    width: 987px;
+    height: 32px;
+    position: relative;
+    background-color: #d6daeb;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 20px;
+    box-shadow: 1px 1px 2px #333333;    
     -moz-box-shadow: 1px 1px 2px #333333;
 }
 .menu li{
-	position: relative;
-	float: left;
-	padding-left: 80px;	
+    position: relative;
+    float: left;
+    padding-left: 80px;	
 }
 
 .menu li a{
-	color:#333; 
-	text-decoration: none; 
-	padding: 10px 10px 4px 10px; 
-	display: block;
+    color:#333; 
+    text-decoration: none; 
+    padding: 10px 10px 4px 10px; 
+    display: block;
 }
 
 .menu li a:hover{
-	color:#0000ff;
-	background-color: #2b2428;
+    color:#0000ff;
+    background-color: #2b2428;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+
 }
 .corpo{
-	width: 987px;
-	margin: 0 auto;
+    width: 987px;
+    margin: 0 auto;
 }
 
 #conteudo{
-	width: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 12px;
+    padding-top: 24px;
 }
 
 #mapa{	
-	width: 687px;
-	height: 472px;
-	position: relative;
-	background-color: #f7f7f7;
+    width: 687px;
+    height: 458px;
+    position: relative;
+    background-color: #f7f7f7;
 }
 #status-transito{
-	width: 297px;
-	height: 467px;
-	position: absolute;
-	left: 690px;
-	top: 202px;
+    width: 297px;
+    height: 456px;
+    position: absolute;
+    left: 690px;
+    top: 196px;
 }
 #norte{
-	position: absolute;
-	top: 59px;
-	left: 177px;
+    position: absolute;
+    top: 59px;
+    left: 177px;
 }
 
 #oeste{
-	position: absolute;
-	top: 150px;
-	right: 384px;
+    position: absolute;
+    top: 150px;
+    right: 384px;
 }
 
 #centro{
-	position: absolute;
-	top: 160px;
-	right: 379px;
+    position: absolute;
+    top: 160px;
+    right: 379px;
 }
 
 #leste{
-	position: absolute;
-	top: 130px;
-	left: 302px;
+    position: absolute;
+    top: 130px;
+    left: 302px;
 }
 
 #sul{
-	position: absolute;
-	top: 190px;
-	left: 198px;
+    position: absolute;
+    top: 190px;
+    left: 198px;
 }
 
 #rodape{
-	position: relative;
-	width: 100%;
-        padding-top: 1px;
-	
-               
+    position: relative;
+    width: 100%;
+    padding-top: 1px;
+    background-color: #4e66c7;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 2px;
+    box-shadow: 2px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+
 }
 
 h2.nome{
-	border-radius: 3px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 4px;
-	box-shadow: 1px 1px 2px #333333;
-	-moz-box-shadow: 1px 1px 2px #333333;
-	-webkit-box-shadow: 1px 1px 2px #333333;
-	background: #d6daeb;
-	height: 20px;
-	text-align:center;
+    border-radius: 3px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #d6daeb;
+    height: 20px;
+    text-align:center;
 }
 
 h1{
-	border-radius: 4px;
+    border-radius: 4px;
     -moz-border-radius: 20px;
-	}
+}
 
 .km{
     text-align: center;
 }
 
+.regioes2{
+    position: relative;
+    width: 82px;
+    left: 215px;
+    top: -24px;
+    height: 72px;
+    /* hidden | dotted | dashed | solid | double | groove | ridge | inset | outset */
+    border:hidden;
+}
 .titregioes{
-	font-size: 20px;
-	position: relative;
+    font-size: 20px;
+    position: relative;
+    border:hidden;
 }
 
 .regioes{
-	position: relative;
-	width: 215px;
-	height: 72px;
-	border: 1px solid;
+    position: relative;
+    width: 215px;
+    height: 72px;
+    border: hidden;
+
 }
 
 #status-transito div{
-	background-color: #c5d1cd;
-	-moz-box-shadow: 1px 1px 2px #333333;
+    background-color: #d6daeb;
+    -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
+
 }
 
 #status-transito div:hover{
-	background-color: #4b4b4b;
-	-moz-box-shadow: 1px 1px 2px #333333;
+    background-color: #4b4b4b;
+    -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
 }
 
-
-.regioes2{
-	position: relative;
-	width: 79px;
-	left: 215px;
-	top: -24px;
-	border: 1px solid;
-	height: 72px;
-}
-
-
 .titulos{
-	position: relative;
-	color: #ffffff;
-	text-align: center;
-	padding: 5px 0px 0px 0px;
-	background-color: #1e1e1e;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    background-color: #1e1e1e;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+
 }
 
 footer{
-	border: 1px solid;
-	width: 987px;
-	height: 100px;
-        margin: 0 auto;
-	position: relative;
-        clear:both;
+    border: hidden;
+    width: 985px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+    clear:both;
 }
 .mapasite{
-        float: left;
-        margin-left: 10px;
-        width: 45%;
-        list-style: none;
-        text-decoration: none;
-}
-.mapasite li a{
-    	color:#333; 
-	text-decoration:none; 
+    float: left;
+    margin-left: 10px;
+    width: 45%;
+    list-style: none;
+    text-decoration: none;
 }
 
 .tit-ranking{
-	background-color: #1e1e1e;
-	position: relative;
-	color: #ffffff;
-	height: 24px;
-	width: 100%;
-	font-size: 16px;
-	text-align: center;
+    background-color: #1e1e1e;
+    position: relative;
+    color: #ffffff;
+    height: 24px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
 }
 
 
 .boxranking{
-	position: relative;
-	width: 100%;
-	height: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-left: 2px;
 }
 
 .boxempresa{
-	width: 470px;
-	height: 100%;
+    width: 470px;
+    height: 100%;
+      background-color: #d6daeb;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 20px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 }
 
 .boxreclamacao{
-	position: relative;
-	width: 470px;
-	height: 300px;
-	left: 515px;
-	top: -252px;
+    position: relative;
+    width: 470px;
+    height: 300px;
+    left: 515px;
+    top: -260px;
+      background-color: #d6daeb;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 20px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
 }
 
 .cada{
-	font-size: 20px;
-	list-style: none;
-	position: relative;
-	padding: 20px 0px 0px 20px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    padding: 20px 0px 0px 20px;
 
 }
 
 .nr{
-	position: relative;
-	float: right;
-	right: 120px;	
+    position: relative;
+    float: right;
+    right: 120px;	
 }
 
 .emt{
-	position: relative;
-	float: right;
-	top: -10px;
+    position: relative;
+    float: right;
+    top: -10px;
 }
 
 p {
-	font-size: 16px;
-	padding-left: 15px;
+    font-size: 16px;
+    padding-left: 15px;
 }
 
 .form {
-	text-align: left;
-	position: relative;	
-	width: 600px;
-	height: 600px;
-	left: 350px;
-	top: 50px;	 
+    text-align: left;
+    position: relative;	
+    width: 600px;
+    height: 600px;
+    left: 350px;
+    top: 50px;	 
 
-	
+
 }
 
 
 .form1 {
-	text-align:left;
-	position: relative;	
-	width: 540px;
-	height: 900px;
-	left: 230px;
-	
+    text-align:left;
+    position: relative;	
+    width: 540px;
+    height: 900px;
+    left: 230px;
+
 }
 
 .containerform{
-	position: relative;
-	width: 100%;
-	
+    position: relative;
+    width: 100%;
+
 }
 
 
 input{     
     border-radius: 5px;
     -moz-border-radius: 4px;
-   -webkit-border-radius:4px;
+    -webkit-border-radius:4px;
     box-shadow: 1px 1px 2px #333333;    
     -moz-box-shadow: 1px 1px 2px #333333;
     -webkit-box-shadow: 1px 1px 2px #333333;
@@ -325,131 +357,131 @@ select{
 }
 
 .tam{
-	width: 242px;
+    width: 242px;
 }
 
 .inpesq{
-	position: relative;
-	
+    position: relative;
+
 }
 
 .inpdir{
-	position: absolute;
-	left: 300px;
-	top: 74px;	
-		
+    position: absolute;
+    left: 300px;
+    top: 74px;	
+
 }
 
 .ddconta{
-	position: relative;
-	width: 270px;
+    position: relative;
+    width: 270px;
 }
 
 .ddconta2{
-	position: relative;
-	width: 268px;
-	top: -60px;
-	left: 271px;
+    position: relative;
+    width: 268px;
+    top: -60px;
+    left: 271px;
 }
 
 .container-conta{
-	width: 100%;	
+    width: 100%;	
 }
 
 .tit-conta{
-	background-color: #408080;
-	position: relative;
-	color: #ca3535;
-	height: 35px;
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
+    background-color: #408080;
+    position: relative;
+    color: #ca3535;
+    height: 35px;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
 }
 
 .boxtermos{
-	position: relative;
-	width : 540px;
-	height: 160px;	
+    position: relative;
+    width : 540px;
+    height: 160px;	
 }
 
 .aligncenter{
-	position: relative;
-	left: 180px;
+    position: relative;
+    left: 180px;
 }
 
 .imgperfil{
-            width: 250px;
-            margin-left: 5px;
-            margin-top: 5px;
-            margin-right: 5px;
-            
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+
 
 }
 #jardel{
-		margin: auto;
-		width: 290px;
-		height: 340px;
-		float: left;
-		margin-left: 5px;
-                
-		
+    margin: auto;
+    width: 290px;
+    height: 340px;
+    float: left;
+    margin-left: 5px;
+
+
 }
 
 #lucas{
-		width: 290px;
-		height: 340px;
-		margin-right: 5px;
-		float: right;
-		
+    width: 290px;
+    height: 340px;
+    margin-right: 5px;
+    float: right;
+
 }
 
 #vinicius{
-    	width: 290px;
-		height: 340px;
-		margin-left: 5px;
-		margin-top: 5px;
-		float: left;
-		
+    width: 290px;
+    height: 340px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+
 }
 #amanda{
-        	width: 290px;
-		height: 340px;
-		float: right;
-		margin-top: 5px;
-		margin-right: 5px;
-		
+    width: 290px;
+    height: 340px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+
 }
 
 #about{
-	margin: auto;
-	width: 600px;
-        padding-top: 5px;
+    margin: auto;
+    width: 600px;
+    padding-top: 5px;
 }
 
 #copy{
     font-size: xx-small;
-    
+
 }
 
 #copyr{ /*propriedades do copyright*/
     position: relative;
     padding-bottom: 50px;
-    
+
 }
 
 #textarea {
 
-	resize: none;
+    resize: none;
 
 }
 
-#boxlogin{
-	position: absolute;
-	width: 300px;
-	height: 80px;
-	left: 685px;
-	top: 40px;
-
+#boxlogin {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  left: 670px;
+  top: 40px;
+  padding-top: 25px;
 }
 
 .formlabel{
@@ -458,30 +490,60 @@ select{
 }
 
 .btnentrar{
-	position: relative;
-	left: 120px;
+	position: absoulet;
+        left: 150px;
+        top: 52px;
+	
 }
 
 h1#QS{
-        margin:auto;
-        text-align: center;
-        padding-top: 15px;
-        font-size: 3em;
-        color: #000000;
-        
+    margin:auto;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 3em;
+    color: #000000;
+
 }	
 .icones{
-	width: 30px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
 
 }
 
 .perg{
     /* formatação das perguntas*/
-    
+
 }
 
 .resp{
     /*formatação das respostas*/
-    
+
+}
+.menurodape {
+    list-style: none;
+    height: 70px;
+    position: relative;
+
+}
+.menurodape li{
+    position: relative;
+    padding-left: 10px;	
+}
+
+.menurodape li a{
+    color:#000000; 
+    text-decoration: none; 
+    padding: 10px 10px 4px 10px; 
+    display: block;
+}
+
+.menurodape li a:hover{
+    color:#0000ff;
+    background-color: #2b2428;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 2px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    width: 150px;
+
 }
