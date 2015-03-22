@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<title>Reclame! - AngryBus - O terminal solução para seu problema no transporte publico!</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<link href="css/style2.css" type="text/css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Signika|Courgette&subset=cyrillic,cyrillic-ext,latin,latin-ext' rel='stylesheet' type='text/css'>
-</head>
-<body>
-       <div class="divbody">
-     	       <header>
-     	       <div id="boxlogin">
-            	<label>Usuario:</label>
-              	<input class="formlabel" type="text"/>
-              	<br><br>
-              	<label>Senha:</label>
-              	<input class="formlabel" type="password"/>
-              	<br><br>	
-              	<input class="btnentrar" type="submit" value="Entrar">
-              </div>
+    <head>
+        <title>Reclame! - AngryBus - O terminal solução para seu problema no transporte publico!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/style2.css" type="text/css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Signika|Courgette&subset=cyrillic,cyrillic-ext,latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="divbody">
+            <header>
+                <div id="boxlogin">
+                    <label>Usuario:</label>
+                    <input class="formlabel" type="text"/>
+                    <br><br>
+                    <label>Senha:</label>
+                    <input class="formlabel" type="password"/>
+                    <br><br>	
+                    <input class="btnentrar" type="submit" value="Entrar">
+                </div>
                 <div>
-                    <img class="logo" src="img/logoAB.png"/>
+                    <img class="logo" src="img/logo.png" alt="#"/>
                 </div>
             </header>
-             <nav>
+            <nav>
                 <div>
                     <ul class="menu">
                         <li><a href="index.html">Home</a></li>
@@ -34,51 +34,98 @@
                     </ul>                    
                 </div>
             </nav>
- 
-            
-	 <div class="containerform">
-      <form class="form">
-          <br>
-            <div>
-            <h1 id="QS">Informa                 <option value="fpessimo"> Péssimo </option>
-                            <option value="fruim"> Ruim </option>
-                            <option value="frazoavel"> Razo�vel </option>
-                            <option value="fbom"> Bom </option>
-                            <option value="fotimo"> Ótimo </option>
-                        </select>
-                        <br>
+
+
+            <div class="containerform">
+                <form class="form">
+                    <legend><u><h2 class="titulos" style="width: 300px;">Informações</h2></u></legend>
+                    <div>
+                       Linha:
+                        <select name="tlinha" value="flinha"> 
+                                <option value="fselec" selected> Selecione...</option>	
+                                <optgroup label="Região Norte">
+                                    <option value="fazul"> Azul </option>
+                                    <option value="famarela"> Amarela </option>
+                                    <option value="fverde"> Verde </option>
+                                    <option value="fvermelha"> Vermelha </option>
+                                </optgroup>
+                                <optgroup label="Região Sul">
+                                    <option value="fazul"> Azul </option>
+                                    <option value="famarela"> Amarela </option>
+                                    <option value="fverde"> Verde </option>
+                                    <option value="fvermelha"> Vermelha </option>
+                                </optgroup>
+                                <optgroup label="Região Leste">
+                                    <option value="fazul"> Azul </option>
+                                    <option value="famarela"> Amarela </option>
+                                    <option value="fverde"> Verde </option>
+                                    <option value="fvermelha"> Vermelha </option>
+                                </optgroup>
+                                <optgroup label="Região Oeste">
+                                    <option value="fazul"> Azul </option>
+                                    <option value="famarela"> Amarela </option>
+                                    <option value="fverde"> Verde </option>
+                                    <option value="fvermelha"> Vermelha </option>
+                                </optgroup>
+                            </select>
+
+                            <br>
+
+                            <p><div>Codigo da Linha: <input type="text" name="fcodlin" id="tcodlin" placeholder="xx-xxxx" size="5"> </div><br></p>
+
+                        <p><div>Dia: <input type="date" name="tdata" id="fdata"> 
+                            Hora: <input type="time" name="thora" id="ftime">
+                            <div>
+                                <br>
+                                <p> <div> Trecho percorrido:  <input type="text" name="tsaida" id="fsaida" minlength="3" size="5" placeholder="inicio"> - <input type="text" name="ttermino" id="ftermino" minlength="3" size="5" placeholder="termino"></div><br>
+                                <p><div>Nota: <select name="tnota" id="fnota">
+                                        <option value="fselec" selected> Selecione...</option>
+                                        <option value="fpessimo"> Péssimo </option>
+                                        <option value="fruim"> Ruim </option>
+                                        <option value="frazoavel"> Razo�vel </option>
+                                        <option value="fbom"> Bom </option>
+                                        <option value="fotimo"> Ótimo </option>
+                                    </select>
+                                    <br>
+                                </div>
+                                <br>
+                                <p><div>Detalhes do ocorrido:<br>
+                                    <textarea name="tdesc" id="fdesc" cols="40" rows="5" >
+
+                                    </textarea><br></div><br>
+                                <p><input type="submit" value="Finalizar"> <input type="reset" value="Limpar">
+
+                            </div>
+                        </div>
                     </div>
-                    <br>
-                    <p><div>Detalhes do ocorrido:<br>
-                        <textarea name="tdesc" id="fdesc" cols="40" rows="5" >
-
-                        </textarea><br></div><br>
-                    <p><input type="submit" value="Finalizar"> <input type="reset" value="Limpar">
-
-                </div>
+                </form>
             </div>
-          </div>
-          </form>
-           </div>
-   <footer id="rodape">
+            <footer id="rodape">
 
                 <div class="mapasite">
-                    Home
-                    <br>Reclame
-                    <br>Cadastre-se
-                    <br>Como funciona?                    
-                    <br>Fale conosco
+                     <ul class="menurodape">
+                        <li><a href="index.html">Home</a>
+                        <li><a href="reclamar.html">Reclame</a></li>
+                         <li><a href="cadastro.html">Cadastre-se</a></li>
+                        <li><a href="about.html">Quem Somos</a></li>
+                        <li><a href="faq.html">Como Funciona</a></li>
+                        </ul>
                 </div>
                 <div class="mapasite">
-                    Acesse nossas redes:
-                    <br>
-                    <a href="#"><img class="icones" src="img/facebook.png"></a>
-                    <a href="#"><img class="icones" src="img/twitter.png"></a>
-                    <a href="#"><img class="icones" src="img/linkedin.png"></a>
-                    <a href="#"><img class="icones" src="img/instagram.png"></a>
+                    Acesse nossas redes:<br>
+                    <div id="icones">
+                    <a href="http://www.facebook.com.br"><img alt="Facebook" class="icones" src="img/facebook.png" style="padding-left: 10px;"></a>
+                    <a href="http://www.twitter.com"><img alt="Twitter" class="icones" src="img/twitter.png"></a>
+                    <a href="http://www.linkedin.com"><img alt="Linkedin" class="icones" src="img/linkedin.png"></a>
+                    <a href="http://www.instagram.com.br"><img alt="Instagram" class="icones" src="img/instagram.png"></a>
+                    <a href="http://www.gplus.com"><img alt="Google Plus" class="icones" src="img/plus.png"></a>
+                    </div>
                 </div>
             </footer>
-           </div>
-          
-</body>
+			<div id="copyr">
+			<p id="copy">Copyright © 2015 - by Amanda, Jardel, Lucas e Vinicius</p>
+			</div>
+        </div>
+
+    </body>
 </html>
