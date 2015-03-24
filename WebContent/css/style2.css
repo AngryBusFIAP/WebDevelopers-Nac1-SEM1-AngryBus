@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+﻿html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, ins, kbd, q, s, samp,
@@ -339,7 +339,7 @@ p {
 .form1 {
     text-align:left;
     position: relative;	
-    width: 540px;
+    width: 610px;
     height: 900px;
     left: 230px;
 
